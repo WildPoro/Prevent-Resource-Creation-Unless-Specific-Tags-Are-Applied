@@ -1,0 +1,21 @@
+{
+    "displayName": "Deny creation of subscriptions, resource groups, and resources without required base tags",
+    "description": "Prevents creation of any subscription, resource group, or resource unless all required base tags are provided.",
+    "mode": "All",
+    "policyRule": {
+      "if": {
+        "anyOf": [
+          { "field": "tags['ENV']", "exists": "false" },
+          { "field": "tags['BusinessOener']", "exists": "false" },
+          { "field": "tags['TechnicalOwner']", "exists": "false" },
+          { "field": "tags['AppOwner']", "exists": "false" },
+          { "field": "tags['Site']", "exists": "false" },
+          { "field": "tags['Project']", "exists": "false" }
+        ]
+      },
+      "then": {
+        "effect": "deny"
+      }
+    }
+  }
+  

@@ -5,7 +5,7 @@ This repository contains a custom Azure Policy (JSON) that prevents the creation
 
 ### Required base tags  
 - `ENV`  
-- `BusinessOener`  
+- `BusinessOwner`  
 - `TechnicalOwner`  
 - `AppOwner`  
 - `Site`  

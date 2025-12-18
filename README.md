@@ -41,12 +41,6 @@ Any extra tags are permitted — but if **any** of the required base tags are mi
 
 ---
 
-## 📚 References  
-- [Why include a README? — GitHub Docs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes) :contentReference[oaicite:1]{index=1}  
-- [How to write a good README — FreeCodeCamp guide] :contentReference[oaicite:2]{index=2}  
-
----
-
 ## 🧑‍💻 Example Usage  
 
 ```bash
